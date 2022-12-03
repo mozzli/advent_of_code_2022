@@ -1,4 +1,4 @@
-package Solutions;
+package solutions;
 
 import data_reader.Reader;
 
