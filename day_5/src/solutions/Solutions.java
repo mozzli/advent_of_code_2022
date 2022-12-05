@@ -1,5 +1,7 @@
 package solutions;
 
+import utilities.ImageCreator;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -15,6 +17,7 @@ public class Solutions {
         for (Integer key : cargo.keySet()) {
             highestCargos.add(cargo.get(key).get(cargo.get(key).size() - 1));
         }
+        ImageCreator.createStacksImage(cargo);
         return highestCargos;
     }
 
